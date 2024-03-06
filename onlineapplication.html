@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Application Form</title>
+
+    <!--favcon-->
+    <link href="assets/icons/logo.transparentbg.png" rel="icon">
+    <link href="assets/icons/logo.transparentbg.png" rel="apple-touch-icon">
+    <!--bootstrap 5 & font & icons & slider-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+    <!--website styles-->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+</head>
+<body>
+    <section>
+        <div class="titlewithlogo container-lg mt-2 mb-2  " style="max-width: 1064px;">
+            <img src="assets/icons/st. David College Header.png" alt="">
+        </div>
+    </section>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-lg" style="max-width: 1064px;">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="navbar-menu-icon"><i class="fa-solid fa-bars"></i></div>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Academic & Admission
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="pharmaceuticalscience.html">Pharmaceutical Science</a></li>
+                  <li><a class="dropdown-item" href="clinicalmedicine.html">Clinical Medicine</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="collegelife.html">Life at SDCHS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="announcements.html">News & Announcements</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="contactus.html">Contact Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Apply Now
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="onlineapplication.html">online Application</a></li>
+                  <li><a class="dropdown-item" href="applicationstatus.html">View Application Status</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <section>
+
+          <div class="container-lg  mt-3 applicationform">
+            <h4 class="m-4">Online Application Form</h4>
+            <form action="" class="apply-form">
+                <div class="forminputdiv">
+                    <label for="">Jina La Kwanza <span>*</span></label>
+                    <input type="text" required>
+                </div>
+                <div class="forminputdiv">
+                    <label for="">Jina La Pili <span>*</span></label>
+                    <input type="text" required>
+                </div>
+                <div class="forminputdiv">
+                    <label for="">Namba ya simu <span>*</span></label>
+                    <input type="number" required>
+                </div>
+                <div class="forminputdiv">
+                    <label for="">Namba ya simu ya Whatsapp</label>
+                    <input type="number" >
+                </div>
+                <div class="forminputdiv">
+                    <label for="">Email <span>*</span></label>
+                    <input type="email" required>
+                </div>
+                <div class="forminputdiv">
+                    <label for="">Chagua Jinsia </label>
+                    <select name="" id="">
+                        <option disabled selected >Chagua</option>
+                        <option value="Me">Me</option>
+                        <option value="Ke">Ke</option>
+                    </select>
+                </div>
+                <div class="forminputdiv">
+                    <label for="">Namba ya Mtihani (Form IV) <span>*</span></label>
+                    <input type="text" placeholder="S-XXXX/XXXX/YYYY" required>
+                </div>
+                <div class="forminputdiv">
+                    <label for="">Namba ya Mtihani YA pili (Form IV)</label>
+                    <input type="text" placeholder="XXXX/XXXX/YYYY" required>
+                </div>
+                <div class="forminputdiv">
+                    <label for="">Kozi Unayoomba <span>*</span></label>
+                    <select name="" id="">
+                        <option disabled selected >Chagua</option>
+                        <option value="-">-</option>
+                        <option value="-">-</option>
+                    </select>
+                </div>
+                <div class="forminputdiv">
+                    <label for="">Je! Unaanza au Unahamia <span>*</span></label>
+                    <select name="" id="">
+                        <option disabled selected >Chagua</option>
+                        <option value="Naanza">Naanza</option>
+                        <option value="Nahamia">Nahamia</option>
+                    </select>
+                </div>
+                <div class="forminputdiv">
+                    <label for="">Umemaliza Chuo Gani <span>*</span></label>
+                    <input type="text" required>
+                </div>
+                <div class="forminputdiv">
+                    <label for="">Umemaliza Ngazi Gani <span>*</span></label>
+                    <select name="" id="">
+                        <option disabled selected >Chagua</option>
+                        <option value="-">-</option>
+                        <option value="-">-</option>
+                    </select>
+                </div>
+                <div class="forminputdiv">
+                    <label for="">Namba ya simu ya Mzazi/Mlezi</label>
+                    <input type="number" >
+                </div>
+                <div class="forminputdiv">
+                    <label for="">Uhusiano na Mzazi/Mlezi</label>
+                    <input type="text" >
+                </div>
+                <div class="forminputdiv">
+                    <label for="">Wasilisha Maombi.</label>
+                    <input type="submit" value="Tuma">
+                </div>
+            </form>
+                
+          </div>
+
+
+          <a href="tel: +255 700 000 000"><button class="whatsappbutton">
+            <i class="fa-brands fa-whatsapp"></i>
+          </button></a>
+
+            <!-- FOOTER -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col  ">
+                        <h4 >About Us</h4>
+                        <div class="footer-logo mb-2">
+                            <img src="assets/icons/logo.transparentbg.png" alt="">
+                        </div>
+                        <ul style="margin-bottom: 35px;">
+                            <li><a href="#">St. David College of Health Sciences</a></li>
+                        </ul>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-x-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Related Links</h4>
+                        <ul>
+                            <li><a href="" >MOE</a></li>
+                            <li><a href="" >MOH</a></li>
+                            <li><a href="" >NHIF</a></li>
+                            <li><a href="" >HESLB</a></li>
+                            <li><a href="" >NACTVET</a></li>
+                            <li><a href="" >GOVERNMENT-TZ</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4 class="translate" data-en="SUPPORT" data-sw="MSAADA">Contuct Us</h4>
+                        <ul>
+                            <li><a href="tel: ">+255 782 222 222</a></li>
+                            <li><a href="tel: ">+255 782 222 222</a></li>
+                            <li><a href="emailto: ">stdavidcollege.co.tz</a></li>
+                            <li><a href="emailto: ">stdavidcollegeofscience@gmail.com</a></li>
+                            <li><a href="#"><i class="fa-solid fa-location-dot"></i> Dar es Salaam, Tanzania </a></li>
+                        </ul>
+                    </div>
+                    
+                   
+                </div>
+                <div class="credits">
+                    <div class="line"></div>
+                    <p>&copy; Copyright <strong><span>St. David College of Health Sciences</span></strong>. All Rights Reserved 2024</p>
+                    
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <div class="loading">
+        <div class="loaderlogo">
+            <img src="assets/icons/logo.whitebg.jpg" alt="">
+        </div>
+        <div class="loader"></div>
+    </div>
+
+
+    <!--bootstrap 5-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="assets/js/index.js"></script>
+
+
+</body>
+</html>
